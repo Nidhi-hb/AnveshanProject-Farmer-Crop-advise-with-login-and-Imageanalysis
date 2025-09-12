@@ -3,13 +3,13 @@ CropWise is an AI-powered farming assistant that delivers instant crop care guid
 
  Features
 
- Core Functionality
-- User Authentication - Secure login/signup with Supabase Auth  
-- Farmer Dashboard - Real-time metrics, weather data, and quick access to AI tools  
-- AI Chat Assistant - Conversational AI powered by Groq for agricultural expertise  
-- Image Analysis - AI-powered crop disease and pest identification  
-- Voice Interface - Multi-language voice interactions with speech recognition  
-- Analytics & Insights- Personalized crop advice and yield optimization  
+ Core Functionality <br>
+- User Authentication - Secure login/signup with Supabase Auth  <br>
+- Farmer Dashboard - Real-time metrics, weather data, and quick access to AI tools <br> 
+- AI Chat Assistant - Conversational AI powered by Groq for agricultural expertise  <br>
+- Image Analysis - AI-powered crop disease and pest identification  <br>
+- Voice Interface - Multi-language voice interactions with speech recognition  <br>
+- Analytics & Insights- Personalized crop advice and yield optimization  <br>
  
  Prerequisites
 - Node.js 18+ and npm
@@ -19,17 +19,17 @@ CropWise is an AI-powered farming assistant that delivers instant crop care guid
  Installation
 
 
-Supabase Configuration
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
+Supabase Configuration <br>
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url <br>
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key <br>
+SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key <br>
 
  Groq Configuration
 GROQ_API_KEY=your_groq_api_key
 
- Database Configuration (Auto-configured with Supabase)
-POSTGRES_URL=your_postgres_url
-POSTGRES_PRISMA_URL=your_postgres_prisma_url
+ Database Configuration (Auto-configured with Supabase)<br> 
+POSTGRES_URL=your_postgres_url <br>
+POSTGRES_PRISMA_URL=your_postgres_prisma_url <br>
 
 install dependencies 
 npm install
@@ -54,21 +54,22 @@ AI Chat Assistant <br>
 - Access conversation history and save important recommendations <br>
 <img src="s3.png" width="500" height="356">
 
- Image Analysis
+ Image Analysis <br>
 - Upload photos of crops, leaves, or soil <br>
 - Get instant AI analysis for diseases, pests, and health issues  <br>
 - Receive treatment recommendations and severity assessments   <br>
 - View analysis history and track crop health over time  <br>
 <img src="s4.png" width="500" height="356">
 
- Voice Interface
+ Voice Interface <br>
 - Use speech-to-text for hands-free interaction <br>
 - Supports multiple languages for accessibility <br>
 - Get audio responses for farming advice <br>
 - Perfect for field use when typing is inconvenient <br>
 <img src="s5.png" width="500" height="356">
- Analytics & Insights
-- Generate personalized crop advice reports
+
+ Analytics & Insights <br.
+- Generate personalized crop advice reports <br>
 - View seasonal recommendations and planting calendars <br>
 - Track farming activities and outcomes <br>
 - Access weather-based farming suggestions <br>
@@ -101,7 +102,7 @@ farmer-crop-advice/
 ├── lib/
 │   └── supabase/            
 ├── scripts/                 
-└── public/                   
+└── public/        
 
  API Endpoints
 
