@@ -44,10 +44,10 @@ npm run dev
  Getting Started <br>
 1. **Sign Up**: Create an account with email and password   <br>
 2. **Complete Profile**: Add your farm details and crop information <br> 
-3. **Explore Dashboard**: View weather, crop status, and quick actions  <br>
+3. **Explore Dashboard**: View weather, crop status, and quick actions  <br> br>
 <img src="s1.png" width="400" height="356"><br>
 
-<img src="s2.png" width="500" height="356">
+<img src="s2.png" width="500" height="356"><br>
 AI Chat Assistant <br>
 - Ask questions about crop management, pest control, soil health  <br> 
 - Get personalized advice based on your location and crops   <br>
