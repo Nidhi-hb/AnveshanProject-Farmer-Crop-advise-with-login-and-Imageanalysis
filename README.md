@@ -4,13 +4,13 @@ CropWise is an AI-powered farming assistant that delivers instant crop care guid
  Features
 
  Core Functionality
-- User Authentication - Secure login/signup with Supabase Auth
-- Farmer Dashboard - Real-time metrics, weather data, and quick access to AI tools
-- AI Chat Assistant - Conversational AI powered by Groq for agricultural expertise
-- Image Analysis - AI-powered crop disease and pest identification
-- Voice Interface - Multi-language voice interactions with speech recognition
-- Analytics & Insights- Personalized crop advice and yield optimization
-
+- User Authentication - Secure login/signup with Supabase Auth  
+- Farmer Dashboard - Real-time metrics, weather data, and quick access to AI tools  
+- AI Chat Assistant - Conversational AI powered by Groq for agricultural expertise  
+- Image Analysis - AI-powered crop disease and pest identification  
+- Voice Interface - Multi-language voice interactions with speech recognition  
+- Analytics & Insights- Personalized crop advice and yield optimization  
+ 
  Prerequisites
 - Node.js 18+ and npm
 - Supabase account
@@ -18,16 +18,11 @@ CropWise is an AI-powered farming assistant that delivers instant crop care guid
 
  Installation
 
-1. **Clone or download the project**
-   ```bash
- git clone <https://github.com/Nidhi-hb/AnveshanProject-Farmer-Crop-advise-with-login-and-Imageanalysis>
-or download the zip file .
 
 Supabase Configuration
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
-NEXT_PUBLIC_DEV_SUPABASE_REDIRECT_URL=http://localhost:3000/auth/callback
 
  Groq Configuration
 GROQ_API_KEY=your_groq_api_key
@@ -46,41 +41,42 @@ start Development server
 npm run dev
 
  Usage Guide
- Getting Started
-1. **Sign Up**: Create an account with email and password
-2. **Complete Profile**: Add your farm details and crop information
-3. **Explore Dashboard**: View weather, crop status, and quick actions
+ Getting Started <br>
+1. **Sign Up**: Create an account with email and password   <br>
+2. **Complete Profile**: Add your farm details and crop information <br> 
+3. **Explore Dashboard**: View weather, crop status, and quick actions  <br>
 <img src="s1.png" width="400" height="356">
 
 <img src="s2.png" width="500" height="356">
-AI Chat Assistant
-- Ask questions about crop management, pest control, soil health
-- Get personalized advice based on your location and crops
-- Access conversation history and save important recommendations
+AI Chat Assistant <br>
+- Ask questions about crop management, pest control, soil health  <br> 
+- Get personalized advice based on your location and crops   <br>
+- Access conversation history and save important recommendations <br>
 <img src="s3.png" width="500" height="356">
 
  Image Analysis
-- Upload photos of crops, leaves, or soil
-- Get instant AI analysis for diseases, pests, and health issues
-- Receive treatment recommendations and severity assessments
-- View analysis history and track crop health over time
+- Upload photos of crops, leaves, or soil <br>
+- Get instant AI analysis for diseases, pests, and health issues  <br>
+- Receive treatment recommendations and severity assessments   <br>
+- View analysis history and track crop health over time  <br>
 <img src="s4.png" width="500" height="356">
 
  Voice Interface
-- Use speech-to-text for hands-free interaction
-- Supports multiple languages for accessibility
-- Get audio responses for farming advice
-- Perfect for field use when typing is inconvenient
+- Use speech-to-text for hands-free interaction <br>
+- Supports multiple languages for accessibility <br>
+- Get audio responses for farming advice <br>
+- Perfect for field use when typing is inconvenient <br>
 <img src="s5.png" width="500" height="356">
  Analytics & Insights
 - Generate personalized crop advice reports
-- View seasonal recommendations and planting calendars
-- Track farming activities and outcomes
-- Access weather-based farming suggestions
+- View seasonal recommendations and planting calendars <br>
+- Track farming activities and outcomes <br>
+- Access weather-based farming suggestions <br>
 <img src="s6.png" width="500" height="356">
 
   Project Structure
-  farmer-crop-advice/
+  ```bash
+farmer-crop-advice/
 ├── app/
 │   ├── auth/                
 │   │   ├── login/
