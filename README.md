@@ -45,7 +45,7 @@ npm run dev
 1. **Sign Up**: Create an account with email and password   <br>
 2. **Complete Profile**: Add your farm details and crop information <br> 
 3. **Explore Dashboard**: View weather, crop status, and quick actions  <br>
-<img src="s1.png" width="400" height="356">
+<img src="s1.png" width="400" height="356"><br>
 
 <img src="s2.png" width="500" height="356">
 AI Chat Assistant <br>
@@ -68,7 +68,7 @@ AI Chat Assistant <br>
 - Perfect for field use when typing is inconvenient <br>
 <img src="s5.png" width="500" height="356">
 
- Analytics & Insights <br.
+ Analytics & Insights <br>
 - Generate personalized crop advice reports <br>
 - View seasonal recommendations and planting calendars <br>
 - Track farming activities and outcomes <br>
