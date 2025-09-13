@@ -30,83 +30,74 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
 
 GROQ_API_KEY=your_groq_api_key
-
 POSTGRES_URL=your_postgres_url
 POSTGRES_PRISMA_URL=your_postgres_prisma_url
 
-Install dependencies
+Install dependencies<br>
 npm install
 
-Start development server
+Start development server<br>
 npm run dev
 
-Usage Guide
+Usage Guide<br>
 Getting Started
 
 Sign Up – Create an account with email and password
-
 Complete Profile – Add farm details and crop information
-
 Explore Dashboard – View weather, crop status, and quick actions
 
-<img src="s1.png" width="400" height="356"><br>
+<img src="s1.png" width="400" height="356"><br><br>
 <img src="s2.png" width="500" height="356"><br>
 
-AI Chat Assistant
+1. AI Chat Assistant
 
 Ask about crop management, pest control, soil health
-
 Get personalized advice based on location and crop data
-
 View conversation history & save recommendations
 
 <img src="s3.png" width="500" height="356"><br>
 
-Image Analysis
+2. Image Analysis
 
 Upload crop/leaf/soil photos
-
 Get instant disease/pest detection and treatment advice
-
 Track analysis history over time
 
 <img src="s4.png" width="500" height="356"><br>
 
-Voice Interface
+3. Voice Interface
 
 Hands-free speech-to-text interaction
-
 Multi-language support with audio responses
 
 <img src="s5.png" width="500" height="356"><br>
 
-Analytics & Insights
+4. Analytics & Insights
 
 Personalized crop reports and planting calendars
-
 Seasonal recommendations and weather-based suggestions
 
 <img src="s6.png" width="500" height="356"><br>
 
- API Endpoints
-Generative Chat API
-Send messages to AI assistant
-Supports streaming responses and context maintenance
+ API Endpoints<br><br>
+Generative Chat API<br>
+Send messages to AI assistant<br>
+Supports streaming responses and context maintenance<br>
 
-Image Analysis API
-Upload and analyze crop images
-Returns disease/pest identification & treatment steps
+Image Analysis API<br><br>
+Upload and analyze crop images<br>
+Returns disease/pest identification & treatment steps<br>
 
-Voice Chat API
-Process voice interactions
-Multi-language conversational responses
+Voice Chat API<br><br>
+Process voice interactions<br>
+Multi-language conversational responses<br>
 
-Tech Stack
-Next.js 14 (App Router)
-Supabase for Auth & Database
-Groq API for AI chat
-Tailwind CSS for UI styling
-TypeScript for type safety
+Tech Stack<br><br>
+Next.js 14 (App Router)<br>
+Supabase for Auth & Database<br>
+Groq API for AI chat<br>
+Tailwind CSS for UI styling<br>
+TypeScript for type safety<br>
 
 📂 Project Structure
 ```bash
