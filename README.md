@@ -1,124 +1,147 @@
-# AnveshanProject-Farmer-Crop-advise-with-login-and-Imageanalysis
-CropWise is an AI-powered farming assistant that delivers instant crop care guidance. Farmers can log in to access a smart chatbot for personalized agricultural advice. Upload crop images to receive real-time disease detection and health analysis. Empowering farmers with data-driven insights to improve yield and reduce crop loss.
+# AnveshanProject – Farmer Crop Advice with Login & Image Analysis
+
+**CropWise** is an AI-powered farming assistant that delivers instant crop-care guidance.  
+Farmers can log in to access a smart chatbot for personalized agricultural advice and upload crop images for real-time disease detection and health analysis—empowering them with data-driven insights to improve yield and reduce crop loss.
 
  Features
+- User Authentication – Secure login/signup with Supabase Auth  
+- Farmer Dashboard – Real-time metrics, weather data, and quick access to AI tools  
+- AI Chat Assistant – Conversational AI powered by Groq for agricultural expertise  
+- Image Analysis – AI-powered crop disease & pest identification  
+- Voice Interface – Multi-language speech recognition for hands-free interaction  
+- Analytics & Insight – Personalized crop advice and yield optimization  
 
- Core Functionality <br>
-- User Authentication - Secure login/signup with Supabase Auth  <br>
-- Farmer Dashboard - Real-time metrics, weather data, and quick access to AI tools <br> 
-- AI Chat Assistant - Conversational AI powered by Groq for agricultural expertise  <br>
-- Image Analysis - AI-powered crop disease and pest identification  <br>
-- Voice Interface - Multi-language voice interactions with speech recognition  <br>
-- Analytics & Insights- Personalized crop advice and yield optimization  <br>
- 
  Prerequisites
-- Node.js 18+ and npm
+- Node.js **18+** and npm
 - Supabase account
 - Groq API account
 
  Installation
 
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/<your-username>/AnveshanProject-Farmer-Crop-advise-with-login-and-Imageanalysis.git
+   cd AnveshanProject-Farmer-Crop-advise-with-login-and-Imageanalysis
 
-Supabase Configuration <br>
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_url <br>
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key <br>
-SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key <br>
+Environment Variables
+Create a .env.local file and add:
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
 
- Groq Configuration
 GROQ_API_KEY=your_groq_api_key
 
- Database Configuration (Auto-configured with Supabase)<br> 
-POSTGRES_URL=your_postgres_url <br>
-POSTGRES_PRISMA_URL=your_postgres_prisma_url <br>
+POSTGRES_URL=your_postgres_url
+POSTGRES_PRISMA_URL=your_postgres_prisma_url
 
-install dependencies 
+Install dependencies
 npm install
-Set up integrations 
-- Add Supabase integration
-- Add Groq integration
 
-start Development server 
+Start development server
 npm run dev
 
- Usage Guide
- Getting Started <br>
-1. **Sign Up**: Create an account with email and password   <br>
-2. **Complete Profile**: Add your farm details and crop information <br> 
-3. **Explore Dashboard**: View weather, crop status, and quick actions  <br> <br>
-<img src="s1.png" width="400" height="356"> <br>
+Usage Guide
+Getting Started
 
-<img src="s2.png" width="500" height="356"> <br>
-AI Chat Assistant <br>
-- Ask questions about crop management, pest control, soil health  <br> 
-- Get personalized advice based on your location and crops   <br>
-- Access conversation history and save important recommendations <br>
-<img src="s3.png" width="500" height="356">
+Sign Up – Create an account with email and password
 
- Image Analysis <br>
-- Upload photos of crops, leaves, or soil <br>
-- Get instant AI analysis for diseases, pests, and health issues  <br>
-- Receive treatment recommendations and severity assessments   <br>
-- View analysis history and track crop health over time  <br>
-<img src="s4.png" width="500" height="356">
+Complete Profile – Add farm details and crop information
 
- Voice Interface <br>
-- Use speech-to-text for hands-free interaction <br>
-- Supports multiple languages for accessibility <br>
-- Get audio responses for farming advice <br>
-- Perfect for field use when typing is inconvenient <br>
-<img src="s5.png" width="500" height="356">
+Explore Dashboard – View weather, crop status, and quick actions
 
- Analytics & Insights <br>
-- Generate personalized crop advice reports <br>
-- View seasonal recommendations and planting calendars <br>
-- Track farming activities and outcomes <br>
-- Access weather-based farming suggestions <br>
-<img src="s6.png" width="500" height="356">
-<br>
+<img src="s1.png" width="400" height="356"><br>
+<img src="s2.png" width="500" height="356"><br>
+
+AI Chat Assistant
+
+Ask about crop management, pest control, soil health
+
+Get personalized advice based on location and crop data
+
+View conversation history & save recommendations
+
+<img src="s3.png" width="500" height="356"><br>
+
+Image Analysis
+
+Upload crop/leaf/soil photos
+
+Get instant disease/pest detection and treatment advice
+
+Track analysis history over time
+
+<img src="s4.png" width="500" height="356"><br>
+
+Voice Interface
+
+Hands-free speech-to-text interaction
+
+Multi-language support with audio responses
+
+<img src="s5.png" width="500" height="356"><br>
+
+Analytics & Insights
+
+Personalized crop reports and planting calendars
+
+Seasonal recommendations and weather-based suggestions
+
+<img src="s6.png" width="500" height="356"><br>
 
  API Endpoints
 Generative Chat API
--  Send messages to AI assistant
-- Supports streaming responses
-- Maintains conversation context
+Send messages to AI assistant
+Supports streaming responses and context maintenance
 
- Image Analysis API
--  Upload and analyze crop images
-- Returns disease/pest identification
-- Provides treatment recommendations
+Image Analysis API
+Upload and analyze crop images
+Returns disease/pest identification & treatment steps
 
- Voice Chat API 
--  Process voice interactions
-- Optimized for conversational responses
-- Supports multiple languages
+Voice Chat API
+Process voice interactions
+Multi-language conversational responses
 
+Tech Stack
+Next.js 14 (App Router)
+Supabase for Auth & Database
+Groq API for AI chat
+Tailwind CSS for UI styling
+TypeScript for type safety
 
-  Project Structure
-  ```bash
+📂 Project Structure
+```bash
 farmer-crop-advice/
 ├── app/
-│   ├── auth/                
+│   ├── auth/
 │   │   ├── login/
 │   │   ├── sign-up/
 │   │   └── callback/
-│   ├── dashboard/           
-│   ├── chat/                 
-│   ├── image-analysis/       
-│   ├── voice/                
-│   ├── analytics/            
-│   └── api/                  
+│   ├── dashboard/
+│   ├── chat/
+│   ├── image-analysis/
+│   ├── voice/
+│   ├── analytics/
+│   └── api/
 │       ├── chat/
 │       ├── analyze-image/
 │       ├── voice-chat/
 │       └── generate-advice/
 ├── components/
-│   ├── ui/                   
+│   ├── ui/
 │   ├── chat-interface.tsx
 │   ├── image-analysis-interface.tsx
 │   ├── voice-interface.tsx
 │   └── crop-advice-system.tsx
 ├── lib/
-│   └── supabase/            
-├── scripts/                 
-└── public/        
+│   └── supabase/
+├── scripts/
+└── public/
+    ├── s1.png
+    ├── s2.png
+    ├── s3.png
+    ├── s4.png
+    ├── s5.png
+    └── s6.png
+
+
 
