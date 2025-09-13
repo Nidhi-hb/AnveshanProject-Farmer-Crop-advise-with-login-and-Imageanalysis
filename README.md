@@ -43,7 +43,7 @@ Usage Guide<br>
 Getting Started
 
 Sign Up – Create an account with email and password<br>
-Complete Profile – Add farm details and crop information
+Complete Profile – Add farm details and crop information<br>
 Explore Dashboard – View weather, crop status, and quick actions
 
 <img src="s1.png" width="400" height="356"><br><br>
@@ -69,7 +69,7 @@ Multi-language support with audio responses<br>
 
 <img src="s5.png" width="500" height="356"><br>
 
-4. Analytics & Insights<br>
+4. Analytics & Insights<br><br>
 Personalized crop reports and planting calendars<br>
 Seasonal recommendations and weather-based suggestions<br>
 
