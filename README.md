@@ -94,7 +94,6 @@ Generative Chat API
 
 
   Project Structure
-  
   ```bash
 farmer-crop-advice/
 ├── app/
@@ -123,5 +122,3 @@ farmer-crop-advice/
 ├── scripts/                 
 └── public/        
 
-
-- Includes seasonal and weather considerations
