@@ -42,40 +42,36 @@ npm run dev
 Usage Guide<br>
 Getting Started
 
-Sign Up – Create an account with email and password
+Sign Up – Create an account with email and password<br>
 Complete Profile – Add farm details and crop information
 Explore Dashboard – View weather, crop status, and quick actions
 
 <img src="s1.png" width="400" height="356"><br><br>
 <img src="s2.png" width="500" height="356"><br>
 
-1. AI Chat Assistant
-
-Ask about crop management, pest control, soil health
-Get personalized advice based on location and crop data
-View conversation history & save recommendations
+1. AI Chat Assistant<br><br>
+Ask about crop management, pest control, soil health<br>
+Get personalized advice based on location and crop data<br>
+View conversation history & save recommendations<br>
 
 <img src="s3.png" width="500" height="356"><br>
 
-2. Image Analysis
-
-Upload crop/leaf/soil photos
-Get instant disease/pest detection and treatment advice
-Track analysis history over time
+2. Image Analysis<br><br>
+Upload crop/leaf/soil photos<br>
+Get instant disease/pest detection and treatment advice<br>
+Track analysis history over time<br>
 
 <img src="s4.png" width="500" height="356"><br>
 
-3. Voice Interface
-
-Hands-free speech-to-text interaction
-Multi-language support with audio responses
+3. Voice Interface<br><br>
+Hands-free speech-to-text interaction<br>
+Multi-language support with audio responses<br>
 
 <img src="s5.png" width="500" height="356"><br>
 
-4. Analytics & Insights
-
-Personalized crop reports and planting calendars
-Seasonal recommendations and weather-based suggestions
+4. Analytics & Insights<br>
+Personalized crop reports and planting calendars<br>
+Seasonal recommendations and weather-based suggestions<br>
 
 <img src="s6.png" width="500" height="356"><br>
 
