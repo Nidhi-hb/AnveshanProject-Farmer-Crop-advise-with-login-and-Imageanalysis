@@ -74,8 +74,27 @@ AI Chat Assistant <br>
 - Track farming activities and outcomes <br>
 - Access weather-based farming suggestions <br>
 <img src="s6.png" width="500" height="356">
+<br>
+
+ API Endpoints
+Generative Chat API
+-  Send messages to AI assistant
+- Supports streaming responses
+- Maintains conversation context
+
+ Image Analysis API
+-  Upload and analyze crop images
+- Returns disease/pest identification
+- Provides treatment recommendations
+
+ Voice Chat API 
+-  Process voice interactions
+- Optimized for conversational responses
+- Supports multiple languages
+
 
   Project Structure
+  
   ```bash
 farmer-crop-advice/
 ├── app/
@@ -104,31 +123,5 @@ farmer-crop-advice/
 ├── scripts/                 
 └── public/        
 
- API Endpoints
 
-Chat API
-
--  Send messages to AI assistant
-- Supports streaming responses
-- Maintains conversation context
-
-
- Image Analysis API
-
--  Upload and analyze crop images
-- Returns disease/pest identification
-- Provides treatment recommendations
-
-
- Voice Chat API 
-
--  Process voice interactions
-- Optimized for conversational responses
-- Supports multiple languages
-
-
-Generate Advice API 
-
--  Generate personalized farming advice
-- Based on user profile and preferences
 - Includes seasonal and weather considerations
